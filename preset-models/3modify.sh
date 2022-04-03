@@ -10,7 +10,7 @@ rm -rf feeds/packages/net/xray-core
 rm -rf package/feeds/packages/xray-core
 #配置ipv6、主题
 sed -i '/exit 0/d' package/default-settings/files/zzz-default-settings
-cat default-settings/config_ipv6 >> package/default-settings/files/zzz-default-settings
+#cat default-settings/config_ipv6 >> package/default-settings/files/zzz-default-settings
 cat default-settings/config_theme >> package/default-settings/files/zzz-default-settings
 echo "exit 0" >> package/default-settings/files/zzz-default-settings
 #复制内核5.10版本CPU超频补丁
